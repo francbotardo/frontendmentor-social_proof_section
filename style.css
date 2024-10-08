@@ -43,7 +43,84 @@ header p{
   margin: 0 28px;
 }
 
-/* ---------FOOTER---------- */
+/* ---------------------STARS---------------------------- */
+.starts{
+  background-color: hsl(300, 25%, 81%);
+  border-radius: 4px;
+  margin: 8px 0;
+  width: 330px;
+  height: 80px;
+  padding: 15px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.startscontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.fivestars .stars{
+  min-width: 110px;
+}
+
+.stars{
+  min-width: 240px;
+  text-align: center;
+}
+
+/* ------------------------CARDS------------------------ */
+.cardscontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+
+.cards{
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  max-width: 330px;
+  height: 250px;
+  padding: 37px;
+  margin: 16px 24px 0 24px;
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+
+.cards img{
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 20px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.cards .name{
+  font-weight: 700;
+  grid-column: 2 / 3;
+}
+
+.cards .estatus{
+  color: hsl(333, 80%, 67%);
+}
+
+.cards p{
+  grid-column: 1 / 3;
+  margin-top: 30px;
+}
+
+/* ------------------------FOOTER------------------------ */
 .attribution {
     font-size: 11px;
     text-align: center;
